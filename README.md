@@ -7,3 +7,4 @@ Un lenguaje en el contexto de la teoría de la computación se refiere a un conj
 - Autómata:
 Un autómata es una máquina abstracta que sigue un conjunto de reglas o instrucciones para realizar tareas específicas. En la teoría de la computación, los autómatas son herramientas utilizadas para describir y analizar la capacidad de los lenguajes para ser reconocidos o generados.
 
+![Imagen del tema](https://github.com/Itzel-Paola-Garcia/LeguajesAutomatas/blob/main/LenguajeyAutomata.jpg)

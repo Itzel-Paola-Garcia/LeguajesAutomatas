@@ -10,8 +10,13 @@ Un autómata es una máquina abstracta que sigue un conjunto de reglas o instruc
 
 ![Imagen del tema](https://github.com/Itzel-Paola-Garcia/LeguajesAutomatas/blob/main/LenguajeyAutomata.jpg)
 
-## Tema 1
-# Tarea 1.1
+# Tema 1
+## Tarea 1.1
 Cuadro comparativo que describa los aportes de los principales investigadores que sustentaron la Teoría de Autómatas.
 
-[Tarea 1](https://github.com/Itzel-Paola-Garcia/LeguajesAutomatas/blob/main/Historia%20y%20evoluci%C3%B3n%20de%20La%20Teor%C3%ADa%20%20de%20Aut%C3%B3matas%20y%20Lenguajes%20Formales.pdf)
+[Tarea 1.1](https://github.com/Itzel-Paola-Garcia/LeguajesAutomatas/blob/main/Historia%20y%20evoluci%C3%B3n%20de%20La%20Teor%C3%ADa%20%20de%20Aut%C3%B3matas%20y%20Lenguajes%20Formales.pdf)
+
+## Tarea 1.2
+Mapa conceptual de las fases de un compilador.
+
+[Tarea 1.2](https://github.com/Itzel-Paola-Garcia/LeguajesAutomatas/blob/main/Fases%20de%20un%20compilador.pdf)

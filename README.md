@@ -20,3 +20,8 @@ Cuadro comparativo que describa los aportes de los principales investigadores qu
 Mapa conceptual de las fases de un compilador.
 
 [Tarea 1.2](https://github.com/Itzel-Paola-Garcia/LeguajesAutomatas/blob/main/Fases%20de%20un%20compilador.pdf)
+
+## Tarea 1.3
+Linea del tiempo de la Historia de los compiladores.
+
+[Tarea 1.3](https://github.com/Itzel-Paola-Garcia/LeguajesAutomatas/blob/main/Historia%20de%20los%20compiladores.pdf)

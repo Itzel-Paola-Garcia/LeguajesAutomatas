@@ -30,3 +30,6 @@ Linea del tiempo de la Historia de los compiladores.
 ## Tarea 6.2
 Comentarios película "The Imitation Game"
 
+[Tarea 6.2](https://github.com/Itzel-Paola-Garcia/LeguajesAutomatas/blob/main/C%C3%B3digo%20Enigma.pdf)
+
+

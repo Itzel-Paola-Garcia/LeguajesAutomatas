@@ -25,3 +25,8 @@ Mapa conceptual de las fases de un compilador.
 Linea del tiempo de la Historia de los compiladores.
 
 [Tarea 1.3](https://github.com/Itzel-Paola-Garcia/LeguajesAutomatas/blob/main/Historia%20de%20los%20compiladores.pdf)
+
+# Tema 6
+## Tarea 6.2
+Comentarios película "The Imitation Game"
+

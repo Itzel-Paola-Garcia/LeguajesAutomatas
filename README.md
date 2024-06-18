@@ -37,6 +37,16 @@ Linea del tiempo de la Historia de los compiladores.
 
 [Tarea 2.2](https://github.com/Itzel-Paola-Garcia/LeguajesAutomatas/blob/main/Tema%202/Tarea%202_2/Tarea%202_2.ipynb)
 
+# Tema 3
+## Tarea 3.1
+Ejercicios de Autómatas Finitos.
+
+[Tarea 1.1](https://github.com/Itzel-Paola-Garcia/LeguajesAutomatas/blob/main/Tema%203/Tarea%203.1.pdf)
+
+## Tarea 3.2
+Caso practico Automata Finito.
+
+[Tarea 3.2](https://github.com/Itzel-Paola-Garcia/LeguajesAutomatas/blob/main/Tema%203/Tarea%203.2.md)
 # Tema 6
 ## Tarea 6.2
 Comentarios película "The Imitation Game"

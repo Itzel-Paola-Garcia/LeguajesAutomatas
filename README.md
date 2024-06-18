@@ -41,7 +41,7 @@ Linea del tiempo de la Historia de los compiladores.
 ## Tarea 3.1
 Ejercicios de Autómatas Finitos.
 
-[Tarea 1.1](https://github.com/Itzel-Paola-Garcia/LeguajesAutomatas/blob/main/Tema%203/Tarea%203.1.pdf)
+[Tarea 3.1](https://github.com/Itzel-Paola-Garcia/LeguajesAutomatas/blob/main/Tema%203/Tarea%203.1.pdf)
 
 ## Tarea 3.2
 Caso practico Automata Finito.

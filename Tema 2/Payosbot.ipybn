@@ -1,0 +1,60 @@
+import logging
+import re
+
+from telegram import ForceReply, Update
+from telegram.ext import Application, CommandHandler, ContextTypes, MessageHandler, filters
+
+# Enable logging
+logging.basicConfig(format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=logging.INFO)
+logging.getLogger("httpx").setLevel(logging.WARNING)
+logger = logging.getLogger(__name__)
+
+# Expresiones regulares
+expresion_saludo = re.compile(r"hello|hi|hey|hola", re.IGNORECASE)
+expresion_nombre = re.compile(r"^\w+\s(\w+)?$", re.IGNORECASE)
+expresion_arte = re.compile(r"[danza|música|dibujo]",re.IGNORECASE)
+expresion_telefono = re.compile(r"\d{3}[\s.-]\d{3}[\s.-]\d{4}")
+
+
+async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    """Send a message when the command /start is issued."""
+    user = update.effective_user
+    await update.message.reply_html(
+        rf"Hi {user.mention_html()}!",
+        reply_markup=ForceReply(selective=True),
+    )
+
+
+async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    """Send a message when the command /help is issued."""
+    await update.message.reply_text("Help!")
+
+
+async def echo(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    """Echo the user message if it matches any regular expression."""
+    message_text = update.message.text
+    if expresion_saludo.search(message_text):
+        await update.message.reply_text("¡Hola! Proporcionanos tu nombre para empezar el formulario ")
+    elif expresion_nombre.search(message_text):
+        await update.message.reply_text("Perfecto!. ¿A que área deseas incribirte? Danza, Música o Dibujo?")
+    elif expresion_arte.search(message_text):
+        await update.message.reply_text(f"Muy bien hemos guardado tu respuesta, porfavor dinos tu número de telefono (000-000-0000)")
+    elif expresion_telefono.search(message_text):
+        await update.message.reply_text(f"Tu número a sido registrado, espera nuestra llamada pronto")
+    else:
+        await update.message.reply_text("No entendí tu mensaje.")
+
+
+def main() -> None:
+    """Start the bot."""
+    application = Application.builder().token("7018765882:AAHsb9DZhambEtZ8jG9D5Ukrcfipt9zW8Uo").build()
+
+    application.add_handler(CommandHandler("start", start))
+    application.add_handler(CommandHandler("help", help_command))
+    application.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, echo))
+
+    application.run_polling(allowed_updates=Update.ALL_TYPES)
+
+
+if __name__ == "__main__":
+    main()

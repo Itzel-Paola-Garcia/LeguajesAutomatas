@@ -30,7 +30,12 @@ Linea del tiempo de la Historia de los compiladores.
 ## Tarea 2.1
  Expresión Regular, cuál es su importancia y casos de uso.
 
-[Tarea 2.1](https://github.com/Itzel-Paola-Garcia/LeguajesAutomatas/blob/main/Tema_2/Tarea%202.1.pdf)
+[Tarea 2.1](https://github.com/Itzel-Paola-Garcia/LeguajesAutomatas/blob/main/Tema%202/Tarea%202.1.pdf)
+
+## Tarea 2.2
+ Práctica, creación de bot en Telegram.
+
+[Tarea 2.2](https://github.com/Itzel-Paola-Garcia/LeguajesAutomatas/blob/main/Tema%202/Tarea%202_2/Tarea%202_2.ipynb)
 
 # Tema 6
 ## Tarea 6.2

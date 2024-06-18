@@ -26,6 +26,12 @@ Linea del tiempo de la Historia de los compiladores.
 
 [Tarea 1.3](https://github.com/Itzel-Paola-Garcia/LeguajesAutomatas/blob/main/Historia%20de%20los%20compiladores.pdf)
 
+# Tema 2
+## Tarea 2.1
+ Expresión Regular, cuál es su importancia y casos de uso.
+
+[Tarea 2.1](https://github.com/Itzel-Paola-Garcia/LeguajesAutomatas/blob/main/Tema_2/Tarea%202.1.pdf)
+
 # Tema 6
 ## Tarea 6.2
 Comentarios película "The Imitation Game"

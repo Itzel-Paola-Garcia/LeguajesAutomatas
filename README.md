@@ -47,7 +47,13 @@ Ejercicios de Autómatas Finitos.
 Caso practico Automata Finito.
 
 [Tarea 3.2](https://github.com/Itzel-Paola-Garcia/LeguajesAutomatas/blob/main/Tema%203/Tarea%203.2.md)
+
 # Tema 6
+## Tarea 6.1
+Ejercicios de Autómatas Finitos.
+
+[Tarea 6.1](https://github.com/Itzel-Paola-Garcia/LeguajesAutomatas/blob/main/Tarea%206.1.pdf)
+
 ## Tarea 6.2
 Comentarios película "The Imitation Game"
 
